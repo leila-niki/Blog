@@ -1,0 +1,7 @@
+.app-content{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    height: calc(100vh - 344px);
+    margin-bottom: 20px;
+}

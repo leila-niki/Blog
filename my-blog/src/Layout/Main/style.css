@@ -1,0 +1,6 @@
+main{
+    width: 65%;
+    overflow-y: auto;
+    background-color: white;
+    padding: 5px 20px;
+}

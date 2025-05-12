@@ -1,0 +1,31 @@
+.post{
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+.post:last-child{
+    border-bottom: none;
+}
+
+.post__header{
+    color: rgb(240, 205, 51);
+
+}
+
+.post__info{
+    color: rgb(161, 161, 161);
+    font-size: 0.8em;
+}
+
+.post__content{
+    color: rgb(27, 26, 26);
+    width: 100%;
+}
+
+.post__content a{
+    color: rgb(215, 197, 117);
+}
+
+.posts-list{
+    width: 100%;
+}

@@ -1,0 +1,9 @@
+.nav-bar{
+    width: 28%;
+    height: 100%;
+    background-color: white;
+}
+
+.nav-bar__header{
+    padding: 0 15px;
+}
