@@ -1,10 +1,9 @@
 import images from "../../assets/images";
-import "./style.css"
 
 const Loading = () => {
     return(
-        <div className="loading">
-            <img className="loading__image" src={images?.spinnerLoader}/>
+        <div className="h-full flex justify-center items-center">
+            <img className="w-[100px]" src={images?.spinnerLoader}/>
         </div>
     )
 }
