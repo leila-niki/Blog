@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
-import Post from "../../Components/Posts/Post";
-import Comment from "../../Components/Comment";
-import Loading from "../../Components/Loading";
-import {getCommentsByPostId, getPostId, postNewComment} from "../../services/postsService";
-import CommentForm from "../../Components/Comment/CommentForm";
+import Comment from "../../Components/comment/Comment";
+import Post from "../../Components/posts/PostCard";
+import Loading from "../../Components/loading/Loading";
+import CommentForm from "../../Components/comment/CommentForm";
 import { convertDateToPersion } from "../../utils/helper";
-
+import {getPostId} from "../../services/postsService";
+import {getCommentsByPostId, postNewComment} from "../../services/commentServices";
 
 const PostPage = () => {
     const {id} = useParams();

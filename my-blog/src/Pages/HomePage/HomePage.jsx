@@ -1,5 +1,4 @@
-import Posts from "../../Components/Posts";
-
+import Posts from "../../Components/posts/Posts"
 
 const HomePage = () => {
     return(

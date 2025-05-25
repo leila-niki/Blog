@@ -1,8 +1,8 @@
+import { useEffect, useState } from "react";
 import {getPosts} from "../../services/postsService";
-import { useContext, useEffect, useState } from "react";
-import Loading from "../Loading";
-import Post from "./Post";
+import Loading from "../loading/Loading";
 import AddPost from "../addPost/AddPost";
+import PostCard from "./PostCard";
 
 
 
@@ -29,7 +29,7 @@ const Posts = () => {
         <div className="w-full h-full">
             {isLoging && <AddPost />}
             {loading ? <Loading /> : posts?.map((post) => (
-                <Post key={post.id} post={post}/>
+                <PostCard key={post.id} {...post}/>
             ))}
         </div>
     )

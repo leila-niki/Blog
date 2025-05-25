@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Input from '../input/Input';
 import Button from '../button/Button';
-import { SignUpService, GetConfirmationForUserName } from '../../services/postsService';
+import { SignUpService, GetConfirmationForUserName } from '../../services/authServices';
 import { useNavigate } from 'react-router';
 
 const SignUp = () => {
